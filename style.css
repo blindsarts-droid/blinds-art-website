@@ -190,9 +190,9 @@ text-decoration:none;
         max-width:350px;
     }
 
-    h1{
-        font-size:48px;
-        line-height:1.1;
+    .hero h1{
+    font-size:48px;
+    line-height:1.1;
     }
 
     .navbar{
@@ -202,4 +202,17 @@ text-decoration:none;
     .nav-links{
         display:none;
     }
+    .features{
+    grid-template-columns:1fr;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+nav ul{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
 }
